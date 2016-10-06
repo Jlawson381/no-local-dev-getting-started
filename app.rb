@@ -10,7 +10,7 @@ end
 
 get "/accounts" do
   @accounts = Account.all
-  erb :indexa
+  erb :index
 end
 
 get "/" do
